@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans');
+
+/* PT Sans 70px*/
+h1 span {
+  font-family: 'PT Sans';
+  font-size: 20px;
+  letter-spacing: 0.04em;
+  weight: 700;
+}
+.letter0 {
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-name: letter0;
+}
+
+.letter1 {
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-name: letter1;
+}
+
+.letter2 {
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-name: letter2;
+}
+
+@keyframes letter0 {
+  0% {
+    color: #D7CBD0;
+  }
+  33% {
+    color: #EBD9B5;
+  }
+  67% {
+    color: #B4E2E9;
+  }
+  100% {
+    color: #D7CBD0;
+  }
+}
+
+@keyframes letter1 {
+  0% {
+    color: #EBD9B5;
+  }
+  33% {
+    color: #B4E2E9;
+  }
+  67% {
+    color: #D7CBD0;
+  }
+  100% {
+    color: #EBD9B5;
+  }
+}
+
+@keyframes letter2 {
+  0% {
+    color: #B4E2E9;
+  }
+  33% {
+    color: #D7CBD0;
+  }
+  67% {
+    color: #EBD9B5;
+  }
+  100% {
+    color: #B4E2E9;
+  }
+}
